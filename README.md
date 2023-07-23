@@ -45,7 +45,7 @@ host2 <var_1>=<value_1> <var_2>=<value_2> ... <var_n>=<value_n>
 
 Variable Name|Description
 ---|---
-`ansible_host`|The name or the ip of the host to connect to.</br>If none, the alias will be used.
+`ansible_host`|The name or the ip of the host to connect to.<br/>If none, the alias will be used.
 `ansible_port`|The port to connect, if not defined, port 12 will used.
 `ansible_user`|The user to use when connecting to the host
 `ansible_password`|The password to use to authenticate to the host
