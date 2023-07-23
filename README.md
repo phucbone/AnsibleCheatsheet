@@ -54,8 +54,8 @@ Variable Name|Description
 `ansible_sftp_extra_args`|This setting is always appended to the default sftp command line.
 `ansible_scp_extra_args`|This setting is always appended to the default scp command line.
 `ansible_ssh_extra_args`|This setting is always appended to the default ssh command line.
-`ansible_ssh_pipelining`|Determines whether or not to use SSH pipelining.</br>This can override the pipelining setting in ansible.cfg.
-`ansible_ssh_executable`|This setting overrides the default behavior to use the system ssh.</br>This can override the `ssh_executable` setting in ansible.cfg.
+`ansible_ssh_pipelining`|Determines whether or not to use SSH pipelining.<br/>This can override the pipelining setting in ansible.cfg.
+`ansible_ssh_executable`|This setting overrides the default behavior to use the system ssh.<br/>This can override the `ssh_executable` setting in ansible.cfg.
 `ansible_become`|Equivalent to `ansible_sudo or ansible_su`, allows to force privilege escalation
 `ansible_become_method`|Allows to set privilege escalation method
 `ansible_become_user`|Equivalent to `ansible_sudo_user` or `ansible_su_user`, allows to set the user you become through privilege escalation
@@ -64,7 +64,7 @@ Variable Name|Description
 `ansible_become_flags`|Equivalent to `ansible_sudo_flags` or `ansible_su_flags`, allows you to set the flags passed to the selected escalation method.
 `ansible_shell_type`|The shell type of the target system.
 `ansible_python_interpreter`|The target host python path.
-`ansible_*_interpreter`|Works for anything such as ruby or perl and works just like `ansible_python_interpreter`.</br>This replaces shebang of modules which will run on that host.
+`ansible_*_interpreter`|Works for anything such as ruby or perl and works just like `ansible_python_interpreter`.<br/>This replaces shebang of modules which will run on that host.
 
 ## Ansible Playbook
 ### Hello World
